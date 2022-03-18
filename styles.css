@@ -1,5 +1,5 @@
-body{
-    margin: 1em auto;
+body {
+  margin: 1em auto;
 }
 .content {
   display: grid;
@@ -25,4 +25,17 @@ p {
   color: #f44336;
   font-weight: bold;
   font-size: 1.3em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  color: #ff5722;
+}
+li {
+  list-style: circle;
+  margin: 0.5em;
+  color: #183bf9;
+  font-weight: bold;
 }
