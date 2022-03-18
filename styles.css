@@ -1,4 +1,28 @@
-body {
-  margin: 0;
-  padding: 0;
+body{
+    margin: 1em auto;
+}
+.content {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #ccc;
+  padding: 2em;
+  box-shadow: 1px 1px 11px 5px;
+}
+h1 {
+  color: #008380;
+  text-shadow: 1px 1px 5px;
+  text-align: center;
+}
+h2 {
+  color: #287687;
+  border: 0 0 10px 0;
+  border-bottom: 5px dotted;
+  width: auto;
+  font-size: 1.5em;
+}
+p {
+  color: #f44336;
+  font-weight: bold;
+  font-size: 1.3em;
 }
